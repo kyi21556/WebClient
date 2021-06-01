@@ -1,0 +1,102 @@
+
+
+<!--suppress XmlUnboundNsPrefix -->
+<!doctype html>
+<html lang="ko">
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta property="og:title" content="타임커머스 티몬"/>
+<meta property="og:image" content="http://img3.tmon.kr/cdn3/service_common/scrap.png"/>
+<meta property="og:description" content="오늘 꼭 봐야할 티몬의 모든 것"/>
+
+
+<title>주수영 티몬</title>
+
+<link href="https://img.tmon.co.kr/static/img/favi_tmon.ico" rel="shortcut icon"/>
+    <link href="/static/gen/cssl/common_new.css?v=20191107&v=" rel="stylesheet" type="text/css" charset="utf-8"/>
+<link href="/static/gen/cssl/cs_mem_new.css?v=3dc8e3cb44475846e4ffa4b86888d13afba5eff7" rel="stylesheet" type="text/css" charset="utf-8"/>
+<link href="/static/fancybox/jquery.fancybox-1.3.4.css?v=20110520" rel="stylesheet" type="text/css" charset="utf-8" media="screen"/>
+<link href="/static/gen/cssl/jquery.mCustomScrollbar.css?v=" rel="stylesheet" type="text/css" charset="utf-8"/>
+
+            <link href="https://img2.tmon.kr/resources/shared/p/css/shared.css?v2=202006091106" rel="stylesheet" type="text/css"/>
+
+<link href="/static/css/swiper.min.css" rel="stylesheet"/>
+
+	<style type="text/css">
+			.kyh {background-color: skyblue;}
+			h3 {color: red;}
+		</style>
+</head>
+    <body>
+
+    <div class="join_wrap">
+        <div class="join_header">
+            <h1 class="logo"><a href="#">TMON</a></h1>
+        </div>
+        <div class="join_contain join_form">
+
+
+<h2 class="join_title">
+    회원정보 입력
+    </h2>
+<dl class="form_wrap">
+    <font color="#F75600" size="3px" face="HY헤드라인M">ID</font>
+    <dd>
+        <div class="input"><input id="userId" data-bind="id" type="text" placeholder="아이디를 입력해 주세요" value=""></div>
+        <p class="msg">영문/숫자 4자 이상을 입력해 주세요.</p>
+    </dd>
+    <font color="#F75600" size="3px" face="HY헤드라인M">PASSWORD</font>
+    <dd>
+        <div class="input"><input id="userPw" data-bind="password" type="password" placeholder="비밀번호를 입력해 주세요" maxlength="20" ></div>
+        <p class="msg">8 ~ 20자의 영문 대/소문자, 숫자, 특수문자를 사용하세요.</p>
+    </dd>
+    <font color="#F75600" size="3px" face="HY헤드라인M">PASSWORD CONFIRM</font>
+    <dd>
+        <div class="input"><input id="userPwConfirm" data-bind="passwordVerify" type="password" placeholder="비밀번호를 다시한번 입력해 주세요" maxlength="20" ></div>
+        <p class="msg"></p>
+    </dd>
+    <font color="#F75600" size="3px" face="HY헤드라인M">Name</font>
+    <dd>
+        <div class="input"><input id="userName" data-bind="name" type="text" placeholder="이름을 입력해주세요" value=""></div>
+        <p class="msg"></p>
+    </dd>
+    <font color="#F75600" size="3px" face="HY헤드라인M">Gender<span class="no_required">(choice)</span></font>
+    <dd class="two_selector">
+        <label class="selector"><input type="radio" name="gender" value="M"><span>남자</span></label>
+        <label class="selector"><input type="radio" name="gender" value="F"><span>여자</span></label>
+    </dd>
+    <font color="#F75600" size="3px" face="HY헤드라인M">E-mail</font>
+    <dd>
+        <div class="input"><input id="userEmail" data-bind="email" type="text" placeholder="이메일을 입력해주세요" value=""></div>
+        <p class="msg">이메일을 입력해주세요.</p>
+        <button class="btn_send_mail" style="display: none">인증메일 전송하기</button>
+        <div class="auth_mail_box" style="display: none">
+            <div class="input">
+                <input id="certCode" type="text" class="number" maxlength="6" oninput="maxLengthCheck(this)" placeholder="인증번호">
+            </div>
+            <button class="btn_mail_auth" >확인</button>
+        </div>
+        <p class="msg "></p>
+    </dd>
+</dl>
+<div class="btns_area">
+    <button class="btn_type1" >가입 완료하기</button>
+</div>
+
+<form name="complete"  action="/user/welcome" method="post" target="_self">
+    <input type="hidden" name="completeUrl" value="" />
+    <input type="hidden" name="returnUrl" value="" />
+</form>
+
+            </div>
+        <div class="join_footer">
+            <div class="copyright">
+                COPYRIGHT. TMON INC. ALL RIGHTS RESERVED.
+            </div>
+        </div>
+    </div><!--/ #wrap -->
+    <script>var tl_vars = {"m_no":0,"nav1":0,"nav2":0,"nav3":0,"abtest_name":{"v16":"B","v18":"A","v19":"B","v110":"B","v111":"A","v144":"B","v149":"A","v150":"A","v151":"B","v153":"A"},"abtest_version":[],"referer":"https:\/\/login.tmon.co.kr\/user\/signup\/term","p_id":"v01-011ec7f8-c6df-4967-b368-922407f24e0e-1637006535","s_id":"f054fd7a-9207-4ead-8acc-3cc08745ed72","sid_ctime":1615443385,"tl_aid":"40c4306e-0e53-4193-9413-551239e2dc0f","aid_ctime":1615443385,"aid_ltime":1615443412,"tl_seq":4,"tl_aid_seq":4};
+</script>
+    </body>
+</html>
